@@ -5,7 +5,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
 
 */
 
-
 function nouveau(Constr) {
   const args = [].slice.call(arguments, 1); // get arguments array if they were passed in
   const thisValue = Object.create(Constr.prototype); // create a new object inheriting from the prototype of the constructor function
