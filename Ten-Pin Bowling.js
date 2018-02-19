@@ -49,6 +49,6 @@ function bowlingScore(frames) {
 
 
 console.log(bowlingScore('X X X X X X X X X XXX')) // 300
-console.log(bowlingScore('11 11 11 11 11 11 11 11 11 11') // 20
-console.log(bowlingScore('61 18 31 5/ 51 27 5/ 71 3/ 34') // 95
-console.log(bowlingScore('80 44 14 X 72 8/ 60 52 36 1/X') // 107
+console.log(bowlingScore('11 11 11 11 11 11 11 11 11 11')) // 20
+console.log(bowlingScore('61 18 31 5/ 51 27 5/ 71 3/ 34')) // 95
+console.log(bowlingScore('80 44 14 X 72 8/ 60 52 36 1/X')) // 107
