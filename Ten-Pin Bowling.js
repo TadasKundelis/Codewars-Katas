@@ -1,4 +1,4 @@
-Ten-Pin Bowling
+/*Ten-Pin Bowling
 
 link : https://www.codewars.com/kata/ten-pin-bowling/train/javascript
 
@@ -19,7 +19,7 @@ made strike or spare in respective arrays. We add the numbers from the rolls arr
 then we go over strikes' and spares' arrays and add the points accordingly (ex. if user made a spare on the 6 roll, we add the result of 
 7 roll to the score, if user made a strike on the 3 roll, we add the result of 4th and 5th roll).
 
-Implementation : 
+Implementation : */
 
 function bowlingScore(frames) {
   let score = 0;
@@ -41,7 +41,6 @@ function bowlingScore(frames) {
       }
     }
   }
-  
   score = rolls.reduce((a, b) => a + b)
   spares.forEach(x => score += rolls[x + 1])
   strikes.forEach(x => score += rolls[x + 1] + rolls[x + 2])          
