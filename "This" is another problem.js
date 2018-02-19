@@ -1,6 +1,6 @@
-"This" is another problem
+/* "This" is another problem
 
-link to the kata : "https://www.codewars.com/kata/this-is-an-other-problem/train/javascript
+link to the kata : https://www.codewars.com/kata/this-is-an-other-problem/train/javascript
 
 Problem description: 
 
@@ -11,7 +11,7 @@ fullName property should be modified accordingly.
 Solution:
 
 all you need to do is make a getter and a setter for the fullName property, setter modifies firstName and lastName, getter returns current
-firstName and lastName. Implementation:
+firstName and lastName. Implementation: */
 
 function NamedOne(first, last) {
   this.firstName = first;
